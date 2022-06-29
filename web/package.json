@@ -2,6 +2,7 @@
   "name": "web",
   "version": "0.0.1",
   "private": true,
+  "homepage": ".",
   "dependencies": {
     "@chakra-ui/icons": "^2.0.2",
     "@chakra-ui/react": "^2.2.1",
@@ -10,6 +11,8 @@
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
+    "@uauth/js": "^2.0.0",
+    "@uauth/web3modal": "^2.0.0",
     "@walletconnect/web3-provider": "^1.7.8",
     "ethers": "^5.6.9",
     "framer-motion": "^6",

@@ -1,6 +1,6 @@
 import { Box, Button, Flex, Text, Menu, MenuButton, MenuList, MenuItem } from "@chakra-ui/react";
-import WalletConnectProvider from "@walletconnect/web3-provider";
-import Web3Modal from "web3modal";
+
+import { web3Modal } from "../lib/web3modal";
 import Web3 from "web3";
 import { NavLink } from "react-router-dom";
 import { useRecoilState } from "recoil";
@@ -13,18 +13,6 @@ export const Header = ({ isLanding }) => {
 
   const connect = async () => {
     try {
-      const providerOptions = {
-        walletconnect: {
-          package: WalletConnectProvider,
-          options: {
-            infuraId: "95f65ab099894076814e8526f52c9149",
-          },
-        },
-      };
-      const web3Modal = new Web3Modal({
-        //network: "mainnet",
-        providerOptions,
-      });
       const provider = await web3Modal.connect();
       const web3 = new Web3(provider);
       const [account] = await web3.eth.getAccounts();
@@ -35,18 +23,6 @@ export const Header = ({ isLanding }) => {
   };
 
   const disconnect = async () => {
-    const providerOptions = {
-      walletconnect: {
-        package: WalletConnectProvider,
-        options: {
-          infuraId: "95f65ab099894076814e8526f52c9149",
-        },
-      },
-    };
-    const web3Modal = new Web3Modal({
-      //network: "mainnet",
-      providerOptions,
-    });
     await web3Modal.clearCachedProvider();
     localStorage.clear();
     setAccount("");
@@ -87,6 +63,9 @@ export const Header = ({ isLanding }) => {
                       <Text>{`${shorten(account, 12)}...`}</Text>
                     </MenuButton>
                     <MenuList>
+                      <MenuItem as={NavLink} to="/" href="/">
+                        Borrow
+                      </MenuItem>
                       <MenuItem as={NavLink} to="/my" href="/my">
                         Lend
                       </MenuItem>

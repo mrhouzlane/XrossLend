@@ -1,0 +1,27 @@
+{
+    "rinkeby": {
+      "name": "Rinkeby",
+      "chainId": 4,
+      "contracts": {
+        "weth": "0xc778417E063141139Fce010982780140Aa0cD5Ab",
+        "finder": "0xbb6206fb01fAad31e8aaFc3AD303cEA89D8c8157",
+        "optimisticOracle": "0x3746badD4d6002666dacd5d7bEE19f60019A8433",
+        "target": "0x5DeA0F77f89E72B8D812Efa19002F00D7EACF234",
+        "source": "0xBA908828BD8f3D871BC709cB6BeD8DbE555795F4"
+      },
+      "rpc": "https://eth-rinkeby.gateway.pokt.network/v1/lb/62b811ae123e6f003985abbf"
+    },
+    "optimism": {
+      "name": "Optimism",
+      "chainId": 10,
+      "contracts": {
+        "weth": "0x7f5c764cbc14f9669b88837ca1490cca17c31607",
+        "finder": "0x278d6b1aA37d09769E519f05FcC5923161A8536D",
+        "optimisticOracle": "",
+        "target": "0xF02eb01aFF74e76991f79f3f13aBF0486d1Da803",
+        "source": "0xf00C5ff56105e78D32606624bdb9A1fCe047406A"
+      },
+      "rpc": "https://optimism-mainnet.gateway.pokt.network/v1/lb/62b82985123e6f003985dbf4"
+    }
+  }
+  

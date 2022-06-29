@@ -2,6 +2,7 @@
   "name": "web",
   "version": "0.0.1",
   "private": true,
+  "homepage": ".",
   "dependencies": {
     "@chakra-ui/icons": "^2.0.2",
     "@chakra-ui/react": "^2.2.1",

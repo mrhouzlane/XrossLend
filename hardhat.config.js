@@ -6,7 +6,8 @@ require("hardhat-gas-reporter");
 require("solidity-coverage");
 
 const networks = require("./networks.json");
-const accounts = process.env.PRIVATE_KEY !== undefined ? [process.env.PRIVATE_KEY] : [];
+const accounts =
+  process.env.PRIVATE_KEY !== undefined ? [process.env.PRIVATE_KEY] : [];
 
 module.exports = {
   solidity: "0.8.4",
@@ -21,6 +22,12 @@ module.exports = {
       finder: networks.optimism.contracts.finder,
       chainId: networks.optimism.chainId,
       url: networks.optimism.rpc,
+      accounts,
+    },
+    polygon: {
+      finder: networks.polygon.contracts.finder,
+      chainId: networks.polygon.chainId,
+      url: networks.polygon.rpc,
       accounts,
     },
   },

@@ -1,27 +1,38 @@
 {
-    "rinkeby": {
-      "name": "Rinkeby",
-      "chainId": 4,
-      "contracts": {
-        "weth": "0xc778417E063141139Fce010982780140Aa0cD5Ab",
-        "finder": "0xbb6206fb01fAad31e8aaFc3AD303cEA89D8c8157",
-        "optimisticOracle": "0x3746badD4d6002666dacd5d7bEE19f60019A8433",
-        "target": "0x5DeA0F77f89E72B8D812Efa19002F00D7EACF234",
-        "source": "0xBA908828BD8f3D871BC709cB6BeD8DbE555795F4"
-      },
-      "rpc": "https://eth-rinkeby.gateway.pokt.network/v1/lb/62b811ae123e6f003985abbf"
+  "rinkeby": {
+    "name": "Rinkeby",
+    "chainId": 4,
+    "contracts": {
+      "weth": "0xc778417E063141139Fce010982780140Aa0cD5Ab",
+      "finder": "0xbb6206fb01fAad31e8aaFc3AD303cEA89D8c8157",
+      "optimisticOracle": "0x3746badD4d6002666dacd5d7bEE19f60019A8433",
+      "target": "0x5DeA0F77f89E72B8D812Efa19002F00D7EACF234",
+      "source": "0xBA908828BD8f3D871BC709cB6BeD8DbE555795F4"
     },
-    "optimism": {
-      "name": "Optimism",
-      "chainId": 10,
-      "contracts": {
-        "weth": "0x7f5c764cbc14f9669b88837ca1490cca17c31607",
-        "finder": "0x278d6b1aA37d09769E519f05FcC5923161A8536D",
-        "optimisticOracle": "",
-        "target": "0xF02eb01aFF74e76991f79f3f13aBF0486d1Da803",
-        "source": "0xf00C5ff56105e78D32606624bdb9A1fCe047406A"
-      },
-      "rpc": "https://optimism-mainnet.gateway.pokt.network/v1/lb/62b82985123e6f003985dbf4"
-    }
+    "rpc": "https://eth-rinkeby.gateway.pokt.network/v1/lb/62b811ae123e6f003985abbf"
+  },
+  "optimism": {
+    "name": "Optimism",
+    "chainId": 10,
+    "contracts": {
+      "weth": "0x7f5c764cbc14f9669b88837ca1490cca17c31607",
+      "finder": "0x278d6b1aA37d09769E519f05FcC5923161A8536D",
+      "optimisticOracle": "0x56e2d1b8C7dE8D11B282E1b4C924C32D91f9102B",
+      "target": "0xF02eb01aFF74e76991f79f3f13aBF0486d1Da803",
+      "source": "0xf00C5ff56105e78D32606624bdb9A1fCe047406A"
+    },
+    "rpc": "https://optimism-mainnet.gateway.pokt.network/v1/lb/62b82985123e6f003985dbf4"
+  },
+  "polygon": {
+    "name": "Polygon",
+    "chainId": 137,
+    "contracts": {
+      "weth": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+      "finder": "0x09aea4b2242abC8bb4BB78D537A67a245A7bEC64",
+      "optimisticOracle": "0xBb1A8db2D4350976a11cdfA60A1d43f97710Da49",
+      "target": "0x3cAFE755F5c1B601eE7FF042B549d4424Fa4fD2f",
+      "source": "0x9af9eE7729efa8F3C0a897b4B8ffc6230E013cd5"
+    },
+    "rpc": "https://poly-mainnet.gateway.pokt.network/v1/lb/62b80eef123e6f0039859c3c"
   }
-  
+}

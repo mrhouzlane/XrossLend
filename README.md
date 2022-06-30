@@ -1,7 +1,7 @@
 ## XrossLend
 
-Live demo : https://hackathon-polygon-encoded.web.app/ 
-IPFS : https://ipfs.io/ipfs/QmYhfQU5CxGAAMTbbbdQQBPnwmniyC6zfKndf4CqnWVfT4/#/ 
+- Live demo : https://hackathon-polygon-encoded.web.app/ 
+- IPFS link : https://ipfs.io/ipfs/QmYhfQU5CxGAAMTbbbdQQBPnwmniyC6zfKndf4CqnWVfT4/#/ 
 
             
 

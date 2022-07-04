@@ -1,16 +1,13 @@
 ## XrossLend
 
-- Live demo : https://hackathon-polygon-encoded.web.app/ 
-- IPFS link : https://ipfs.io/ipfs/QmYhfQU5CxGAAMTbbbdQQBPnwmniyC6zfKndf4CqnWVfT4/#/ 
+- Live demo : https://hackathon-polygon-encoded.web.app/
+- IPFS link : https://ipfs.io/ipfs/QmTEP6TgmqsrXuxdvNa6RC4WoLDhexQSvaLBHYPyE5KSax/#/
 
-
-## Unstoppable domains : 
+## Unstoppable domains :
 
 We are using unstoppable domains :
 
-xrosslend.nft is managing website https://ipfs.io/ipfs/QmYhfQU5CxGAAMTbbbdQQBPnwmniyC6zfKndf4CqnWVfT4
-
-            
+xrosslend.nft is managing website https://ipfs.io/ipfs/QmTEP6TgmqsrXuxdvNa6RC4WoLDhexQSvaLBHYPyE5KSax
 
 ## Deployed Contract
 
@@ -41,6 +38,8 @@ xrosslend.nft is managing website https://ipfs.io/ipfs/QmYhfQU5CxGAAMTbbbdQQBPnw
 
 ### web
 
+#### setup
+
 Need to build contract first
 
 ```
@@ -48,12 +47,26 @@ npm i
 npm run build
 ```
 
-Then at web directory
+Then, install in web directory
 
 ```
+// cd web
 npm i
+```
+
+#### development
+
+```
 npm run dev
 ```
+
+#### build
+
+```
+npm run build
+```
+
+you can upload web/build to ipfs for hosting.
 
 ### Test
 

@@ -1,13 +1,13 @@
 ## XrossLend
 
 - Live demo : https://hackathon-polygon-encoded.web.app/
-- IPFS link : https://ipfs.io/ipfs/QmTEP6TgmqsrXuxdvNa6RC4WoLDhexQSvaLBHYPyE5KSax/#/
+- IPFS link : https://ipfs.io/ipfs/QmZiiEydRhEoSZL12ZHALMZN669FxgHAaF4Xbz3UYDvLin/#/
 
 ## Unstoppable domains :
 
 We are using unstoppable domains :
 
-xrosslend.nft is managing website https://ipfs.io/ipfs/QmTEP6TgmqsrXuxdvNa6RC4WoLDhexQSvaLBHYPyE5KSax
+xrosslend.nft is managing website https://ipfs.io/ipfs/QmZiiEydRhEoSZL12ZHALMZN669FxgHAaF4Xbz3UYDvLin
 
 ## Deployed Contract
 
